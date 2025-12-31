@@ -1151,8 +1151,8 @@ pre code {
 
 .content {
   color: rgb(70.1, 70.1, 70.1);
-  font-size: 14px;
-  line-height: 1.75em;
+  font-size: 15px;
+  line-height: 1.8em;
   padding: 0 30px;
 }
 @media (prefers-color-scheme: dark) {
@@ -1216,7 +1216,7 @@ pre code {
   box-shadow: none;
 }
 .content p {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 .content ul,
 .content ol {
