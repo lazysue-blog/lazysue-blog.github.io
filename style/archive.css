@@ -1,0 +1,46 @@
+#archive-page .archive {
+  position: relative;
+  padding: 20px;
+}
+#archive-page .archive .archive-item {
+  position: relative;
+}
+#archive-page .archive .archive-item a {
+  display: inline-block;
+  padding: 3px 15px;
+  border-left: 3px solid transparent;
+  background: transparent;
+  transition: all ease 0.24s;
+}
+@media (prefers-color-scheme: dark) {
+  #archive-page .archive .archive-item a {
+    color: rgb(143.8046875, 172.25, 200.6953125);
+  }
+}
+#archive-page .archive .archive-item a:hover {
+  border-left-color: rgb(255, 172.6, 51);
+  background-color: rgb(240.5135135135, 241.2378378378, 242.6864864865);
+}
+@media (prefers-color-scheme: dark) {
+  #archive-page .archive .archive-item a:hover {
+    border-left-color: rgb(0, 201, 182.24);
+    background-color: rgb(12.6328125, 19.25, 25.8671875);
+  }
+}
+#archive-page .archive .archive-year {
+  font-size: 16px;
+  margin: 10px 0;
+}
+#archive-page .archive .archive-post time {
+  font-size: 12px;
+  padding-right: 10px;
+}
+#archive-page .archive .archive-post .title {
+  font-size: 14px;
+  color: #ff9800;
+}
+@media (prefers-color-scheme: dark) {
+  #archive-page .archive .archive-post .title {
+    color: #009688;
+  }
+}
