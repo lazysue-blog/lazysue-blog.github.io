@@ -61,14 +61,14 @@
 }
 #header #logo img {
   display: block;
-  width: 70px;
+  width: 90px;
   height: auto;
   margin: 0 auto;
   transition: all 0.24s;
 }
 @media (max-width: 820px) {
   #header #logo img {
-    width: 50px;
+    width: 70px;
   }
 }
 #header #logo #site-desc {
